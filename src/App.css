@@ -1,0 +1,64 @@
+@keyframes emerge {
+  from {
+    opacity: 0;
+    margin-top: -1%;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  src: local('Baskerville'), url(./fonts/BASKVILL.TTF) format('truetype');
+}
+
+* {
+  font-family: Baskerville;
+  letter-spacing: .1rem;
+}
+
+html {
+  background-image: url("../public/img/0037105316_130.jpg");
+  background-color: black;
+  color: white;
+}
+
+.releaseTitle {
+  text-transform: uppercase;
+}
+
+a {
+  color: brown;
+  text-decoration: underline;
+}
+
+hr {
+  border-width: 0;
+}
+
+.bioContainer {
+  margin-bottom: 2em;
+}
+
+.songsContainer {
+  animation: 1.2s emerge;
+}
+
+.lyricsContainer {
+  white-space: pre-line;
+}
+
+span {
+  font-size: small;
+  margin: 0 0.5em;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+  position: fixed;
+  bottom: 0;
+  opacity: 40%;
+}
