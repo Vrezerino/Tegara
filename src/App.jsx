@@ -55,9 +55,9 @@ export default function App() {
     <a href='https://www.youtube.com/channel/UCpsAMSv_ebDxEEjgkyy435g' rel='noreferrer' target='_blank'>
       <img alt='YouTube logo' src='img/yt.png' />
     </a>
-    <a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
+    {/**<a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
       <img alt='PayPal donate button' src='img/donatebtn.png' />
-    </a>
+    </a>*/}
     </div>
     </>
   );
