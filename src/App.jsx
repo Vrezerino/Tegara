@@ -18,7 +18,7 @@ export default function App() {
       <br />∟ 1. Threnodist <Link to='/lyrics/threnodist/threnodist'><span>lyrics</span></Link>
       <a href='/files/Tegara_-_Threnodist_tabs.zip'><span>tabs</span></a>
       <a href='/files/Tegara_-_Threnodist_stems.zip'><span>stems</span></a>
-      <br />∟ 2. Avalanche <Link to='/lyrics/threnodist/threnodist'><span>lyrics</span></Link>
+      <br />∟ 2. Avalanche
       <a href='/files/Tegara_-_Avalanche_tabs.zip'><span>tabs</span></a>
       <a href='/files/Tegara_-_Avalanche_stems.zip'><span>stems</span></a>
       <br />∟ ?. Black Sky Sunbath <Link to='/lyrics/threnodist/black_sky_sunbath'><span>lyrics</span></Link>
