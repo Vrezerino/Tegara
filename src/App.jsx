@@ -14,14 +14,17 @@ export default function App() {
       <br />
       <hr />
 
-      <b className='releaseTitle'>Threnodist (2024)</b>
-      <br />∟ 1. Black Sky Sunbath <Link to='/lyrics/threnodist/black_sky_sunbath'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Black_Sky_Sunbath_tabs.zip'><span>tabs</span></a>
-      <a href='/files/Tegara_-_Black_Sky_Sunbath_instr_stems.zip'><span>stems</span></a>
-      <br />∟ 2. Threnodist <Link to='/lyrics/threnodist/threnodist'><span>lyrics</span></Link>
+      <b className='releaseTitle'>Threnodist (2025)</b>
+      <br />∟ 1. Threnodist <Link to='/lyrics/threnodist/threnodist'><span>lyrics</span></Link>
       <a href='/files/Tegara_-_Threnodist_tabs.zip'><span>tabs</span></a>
       <a href='/files/Tegara_-_Threnodist_stems.zip'><span>stems</span></a>
-      <br />∟ 3. The Paramount Tenor <Link to='/lyrics/threnodist/the_paramount_tenor'><span>lyrics</span></Link>
+      <br />∟ 2. Avalanche <Link to='/lyrics/threnodist/threnodist'><span>lyrics</span></Link>
+      <a href='/files/Tegara_-_Avalanche_tabs.zip'><span>tabs</span></a>
+      <a href='/files/Tegara_-_Avalanche_stems.zip'><span>stems</span></a>
+      <br />∟ ?. Black Sky Sunbath <Link to='/lyrics/threnodist/black_sky_sunbath'><span>lyrics</span></Link>
+      <a href='/files/Tegara_-_Black_Sky_Sunbath_tabs.zip'><span>tabs</span></a>
+      <a href='/files/Tegara_-_Black_Sky_Sunbath_instr_stems.zip'><span>stems</span></a>
+      <br />∟ ?. The Paramount Tenor <Link to='/lyrics/threnodist/the_paramount_tenor'><span>lyrics</span></Link>
       <a href='/files/Tegara_-_The_Paramount_Tenor_tabs.zip'><span>tabs</span></a>
       <a href='/files/Tegara_-_The_Paramount_Tenor_stems.zip'><span>stems</span></a>
       <br />
