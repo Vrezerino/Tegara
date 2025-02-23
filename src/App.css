@@ -42,12 +42,8 @@ hr {
   margin-bottom: 2em;
 }
 
-.songsContainer {
+.releasesContainer {
   animation: 1.2s emerge;
-}
-
-.lyricsContainer {
-  white-space: pre-line;
 }
 
 span {

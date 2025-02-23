@@ -138,6 +138,59 @@ Me!
 Me!
 Me!
 Me!`,
+    Avalanche: `Ah, you see from below
+You have welcomed yourself
+Confluence only an animate fist knows
+Misadventure that Shackleton envies
+
+Inkling in advance of all
+Have you ever seen the orchestra
+Not on the mezzanine
+But on the highest balcony
+
+What privilege to have succumbed
+To a crescendo
+Slabs of not turpitude
+A stauchwall not of senseless wrath
+
+Participation you will not abhor
+Your haughty strides we ask to halt
+You must observe well-deserved resplendence
+
+I give credit where credit is due
+You created fantastic incomprehensiveness
+Here is a signature of Debasement
+So your royalties will be paid in full
+
+Amusing, rash crown fracture lines
+Rushing to hasten an onslaught to ravage
+No more evident can cause and effect be
+In an inverted quietus space
+
+I see from above
+I have redeemed myself
+Gremlins introduced to the outcrop
+Imps subdued and squelched
+
+The transient knows of substance
+Halt and feel no more
+Contemptuous impulse-latensification
+Perfunctory smile of a static eum-yang `,
+    Dreamscape: `Me god
+Oh you know me
+Where'd you come from
+
+Me god
+Oh you know me
+Where'd you come from
+
+Me god
+Oh you know me
+Where'd you come from
+
+Me god
+Oh you know me
+Where'd you come from`,
   },
   "Thousand Mile Stare": {
     "Congested Tortuosa": `Dissociated, unattached scanning -

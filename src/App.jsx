@@ -1,74 +1,134 @@
 import './App.css';
-import { Link } from 'react-router-dom';
+import Release from './components/Release';
 
 export default function App() {
   return (
     <>
-    {/**<div className='bioContainer'>
-      hehe
-    </div>*/}
-    <div className='songsContainer'>
-      <b className='releaseTitle'>Ultra Vesaniam (2025)</b>
-      <br />∟ 1. Intro
+      <div className='releasesContainer'>
+        <Release
+          title='Ultra Vesaniam'
+          year='2025'
+          songs={[
+            { songTitle: 'Intro', lyrics: null, tabs: null },
+            {
+              songTitle: 'Prodome',
+              lyrics: 'ultra_vesaniam/prodome',
+              tabs: '/files/Tegara_-_Prodome_tabs.zip',
+            },
+          ]}
+        />
 
-      <br />∟ 2. Prodome <Link to='/lyrics/ultra_vesaniam/prodome'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Prodome_tabs.zip'><span>tabs</span></a>
-      <br />
-      <hr />
+        <Release
+          title='Threnodist'
+          year='2025'
+          songs={[
+            {
+              songTitle: 'Threnodist',
+              lyrics: 'threnodist/threnodist',
+              tabs: '/files/Tegara_-_Threnodist_tabs.zip',
+            },
+            {
+              songTitle: 'Avalanche',
+              lyrics: 'threnodist/avalanche',
+              tabs: '/files/Tegara_-_Avalanche_rhythm_guitar_tabs.pdf',
+            },
+            {
+              songTitle: 'Black Sky Sunbath',
+              lyrics: 'threnodist/black_sky_sunbath',
+              tabs: '/files/Tegara_-_Black_Sky_Sunbath_tabs.zip',
+              unordered: true,
+            },
+            {
+              songTitle: 'The Paramount Tenor',
+              lyrics: 'threnodist/the_paramount_tenor',
+              tabs: '/files/Tegara_-_The_Paramount_Tenor_tabs.zip',
+              unordered: true,
+            },
+            {
+              songTitle: 'Dreamscape',
+              lyrics: 'threnodist/dreamscape',
+              tabs: null,
+              unordered: true,
+            },
+            { songTitle: 'Elysium', lyrics: null, tabs: null, unordered: true },
+          ]}
+        />
 
-      <b className='releaseTitle'>Threnodist (2025)</b>
-      <br />∟ 1. Threnodist <Link to='/lyrics/threnodist/threnodist'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Threnodist_tabs.zip'><span>tabs</span></a>
-      <a href='/files/Tegara_-_Threnodist_stems.zip'><span>stems</span></a>
+        <Release
+          title='Thousand Mile Stare'
+          year='2023'
+          songs={[
+            {
+              songTitle: 'Congested Tortuosa',
+              lyrics: 'thousand_mile_stare/congested_tortuosa',
+              tabs: null,
+            },
+            {
+              songTitle: 'Macrocosm',
+              lyrics: 'thousand_mile_stare/macrocosm',
+              tabs: null,
+            },
+            {
+              songTitle: 'Moribundity',
+              lyrics: 'thousand_mile_stare/moribundity',
+              tabs: null,
+            },
+            {
+              songTitle: 'Coil To Strike',
+              lyrics: 'thousand_mile_stare/coil_to_strike',
+              tabs: null,
+            },
+          ]}
+        />
 
-      <br />∟ 2. Avalanche
-      <a href='/files/Tegara_-_Avalanche_tabs.zip'><span>tabs</span></a>
-      <a href='/files/Tegara_-_Avalanche_stems.zip'><span>stems</span></a>
+        <Release
+          title='Stochasticity'
+          year='2021'
+          songs={[
+            {
+              songTitle: 'Stochasticity',
+              lyrics: 'stochasticity/stochasticity',
+              tabs: '/files/Tegara_-_Stochasticity_Part_I_rhythm_guitar.pdf',
+            },
+            {
+              songTitle: 'Triangular Mutineers',
+              lyrics: 'stochasticity/triangular_mutineers',
+              tabs: '/files/Tegara_-_Stochasticity_Part_II_rhythm_guitar.pdf',
+            },
+            {
+              songTitle: 'Blackened',
+              lyrics: 'stochasticity/blackened',
+              tabs: '/files/Tegara_-_Stochasticity_Part_III_rhythm_guitar.pdf',
+            },
+            {
+              songTitle: 'Stygian Corner',
+              lyrics: 'stochasticity/stygian_corner',
+              tabs: '/files/Tegara_-_Stochasticity_Part_IV_rhythm_guitar.pdf',
+            },
+            {
+              songTitle: 'Dishonest Shapes',
+              lyrics: 'stochasticity/dishonest_shapes',
+              tabs: null,
+            },
+          ]}
+        />
+      </div>
 
-      <br />∟ ?. Black Sky Sunbath <Link to='/lyrics/threnodist/black_sky_sunbath'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Black_Sky_Sunbath_tabs.zip'><span>tabs</span></a>
-      <a href='/files/Tegara_-_Black_Sky_Sunbath_instr_stems.zip'><span>stems</span></a>
-
-      <br />∟ ?. The Paramount Tenor <Link to='/lyrics/threnodist/the_paramount_tenor'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_The_Paramount_Tenor_tabs.zip'><span>tabs</span></a>
-      <a href='/files/Tegara_-_The_Paramount_Tenor_stems.zip'><span>stems</span></a>
-
-      <br />∟ ?. Elysium
-      <br />
-      <hr />
-
-      <b className='releaseTitle'>Thousand Mile Stare (2023)</b>
-      <br />∟ 1. Congested Tortuosa <Link to='/lyrics/thousand_mile_stare/congested_tortuosa'><span>lyrics</span></Link>
-      <br />∟ 2. Macrocosm <Link to='/lyrics/thousand_mile_stare/macrocosm'><span>lyrics</span></Link>
-      <br />∟ 3. Moribundity <Link to='/lyrics/thousand_mile_stare/moribundity'><span>lyrics</span></Link>
-      <br />∟ 4. Coil To Strike <Link to='/lyrics/thousand_mile_stare/coil_to_strike'><span>lyrics</span></Link>
-      <br />
-      <hr />
-
-      <b className='releaseTitle'>Stochasticity (2021)</b>
-      <br />∟ 1. Stochasticity <Link to='/lyrics/stochasticity/stochasticity'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Stochasticity_Part_I_rhythm_guitar.pdf'><span>tabs</span></a>
-      <br />∟ 2. Triangular Mutineers <Link to='/lyrics/stochasticity/triangular_mutineers'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Stochasticity_Part_II_rhythm_guitar.pdf'><span>tabs</span></a>
-      <br />∟ 3. Blackened <Link to='/lyrics/stochasticity/blackened'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Stochasticity_Part_III_rhythm_guitar.pdf'><span>tabs</span></a>
-      <br />∟ 4. Stygian Corner <Link to='/lyrics/stochasticity/stygian_corner'><span>lyrics</span></Link>
-      <a href='/files/Tegara_-_Stochasticity_Part_IV_rhythm_guitar.pdf'><span>tabs</span></a>
-      <br />∟ 5. Dishonest Shapes <Link to='/lyrics/stochasticity/dishonest_shapes'><span>lyrics</span></Link>
-      <br />
-    </div>
-
-    <div style={{ marginTop: '2em' }}>
-    <a href='https://tegara.bandcamp.com' rel='noreferrer' target='_blank'>
-      <img alt='Bandcamp logo' src='img/bc.png' />
-    </a>
-    <a href='https://www.youtube.com/channel/UCpsAMSv_ebDxEEjgkyy435g' rel='noreferrer' target='_blank'>
-      <img alt='YouTube logo' src='img/yt.png' />
-    </a>
-    {/**<a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
+      <div style={{ marginTop: '2em' }}>
+        <a href='https://tegara.bandcamp.com' rel='noreferrer' target='_blank'>
+          <img alt='Bandcamp logo' src='img/bc.png' />
+        </a>
+        <a
+          href='https://www.youtube.com/channel/UCpsAMSv_ebDxEEjgkyy435g'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <img alt='YouTube logo' src='img/yt.png' />
+        </a>
+        {/**<a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
       <img alt='PayPal donate button' src='img/donatebtn.png' />
     </a>*/}
-    </div>
+      </div>
     </>
   );
 }
