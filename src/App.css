@@ -46,6 +46,10 @@ hr {
   animation: 1.2s emerge;
 }
 
+.lyricsContainer {
+  white-space: pre-line;
+}
+
 span {
   font-size: small;
   margin: 0 0.5em;
