@@ -145,10 +145,10 @@ Misadventure that Shackleton envies
 
 Inkling in advance of all
 Have you ever seen the orchestra
-Not on the mezzanine
+Playing not on the mezzanine
 But on the highest balcony
 
-What privilege to have succumbed
+What privilege to have been succumbed
 To a crescendo
 Slabs of not turpitude
 A stauchwall not of senseless wrath
