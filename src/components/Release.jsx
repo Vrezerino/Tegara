@@ -10,7 +10,7 @@ export function Song({ song, i }) {
     <>
       ∟ {song.unordered ? '?' : i}. {song.songTitle} 
       {song.lyrics && (<Link to={`/lyrics/${song.lyrics}`}><span>lyrics</span></Link>)}
-      {song.tabs && (<a href={song.tabs}><span>tabs</span></a>)}
+      {song.tabs?.map((t, i) => <a href={t}><span>tabs {i+1}</span></a>)}
       <br />
     </>
   )

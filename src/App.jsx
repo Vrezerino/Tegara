@@ -13,7 +13,7 @@ export default function App() {
             {
               songTitle: 'Prodome',
               lyrics: 'ultra_vesaniam/prodome',
-              tabs: '/files/Tegara_-_Prodome_tabs.zip',
+              tabs: ['/files/Tegara_-_Prodome_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Prodome_trash_guitar tabs.pdf'],
             },
           ]}
         />
@@ -25,23 +25,23 @@ export default function App() {
             {
               songTitle: 'Threnodist',
               lyrics: 'threnodist/threnodist',
-              tabs: '/files/Tegara_-_Threnodist_tabs.zip',
+              tabs: ['/files/Tegara_-_Threnodist_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Threnodist_lead_guitar_tabs.pdf'],
             },
             {
               songTitle: 'Avalanche',
               lyrics: 'threnodist/avalanche',
-              tabs: '/files/Tegara_-_Avalanche_rhythm_guitar_tabs.pdf',
+              tabs: ['/files/Tegara_-_Avalanche_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Avalanche_solo_guitar_tabs.pdf'],
             },
             {
               songTitle: 'Black Sky Sunbath',
               lyrics: 'threnodist/black_sky_sunbath',
-              tabs: '/files/Tegara_-_Black_Sky_Sunbath_tabs.zip',
+              tabs: ['/files/Tegara_-_Black_Sky_Sunbath_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Black_Sky_Sunbath_solo_guitar_tabs.pdf'],
               unordered: true,
             },
             {
               songTitle: 'The Paramount Tenor',
               lyrics: 'threnodist/the_paramount_tenor',
-              tabs: '/files/Tegara_-_The_Paramount_Tenor_tabs.zip',
+              tabs: ['/files/Tegara_-_The_Paramount_Tenor_rhythm_guitar.pdf', '/files/Tegara_-_The_Paramount_Tenor_clean_and_trash_guitar.pdf'],
               unordered: true,
             },
             {
@@ -88,22 +88,22 @@ export default function App() {
             {
               songTitle: 'Stochasticity',
               lyrics: 'stochasticity/stochasticity',
-              tabs: '/files/Tegara_-_Stochasticity_Part_I_rhythm_guitar.pdf',
+              tabs: ['/files/Tegara_-_Stochasticity_Part_I_rhythm_guitar.pdf'],
             },
             {
               songTitle: 'Triangular Mutineers',
               lyrics: 'stochasticity/triangular_mutineers',
-              tabs: '/files/Tegara_-_Stochasticity_Part_II_rhythm_guitar.pdf',
+              tabs: ['/files/Tegara_-_Stochasticity_Part_II_rhythm_guitar.pdf'],
             },
             {
               songTitle: 'Blackened',
               lyrics: 'stochasticity/blackened',
-              tabs: '/files/Tegara_-_Stochasticity_Part_III_rhythm_guitar.pdf',
+              tabs: ['/files/Tegara_-_Stochasticity_Part_III_rhythm_guitar.pdf'],
             },
             {
               songTitle: 'Stygian Corner',
               lyrics: 'stochasticity/stygian_corner',
-              tabs: '/files/Tegara_-_Stochasticity_Part_IV_rhythm_guitar.pdf',
+              tabs: ['/files/Tegara_-_Stochasticity_Part_IV_rhythm_guitar.pdf'],
             },
             {
               songTitle: 'Dishonest Shapes',
