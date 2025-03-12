@@ -45,12 +45,17 @@ export default function App() {
               unordered: true,
             },
             {
+              songTitle: 'Supermirage',
+              lyrics: null,
+              tabs: ['/files/Tegara_-_Supermirage_rhythm_guitar_tabs.pdf'],
+              unordered: true,
+            },
+            {
               songTitle: 'Dreamscape',
               lyrics: 'threnodist/dreamscape',
               tabs: null,
               unordered: true,
-            },
-            { songTitle: 'Elysium', lyrics: null, tabs: null, unordered: true },
+            }
           ]}
         />
 
