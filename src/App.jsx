@@ -28,19 +28,19 @@ export default function App() {
               tabs: ['/files/Tegara_-_Threnodist_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Threnodist_lead_guitar_tabs.pdf'],
             },
             {
-              songTitle: 'untitled',
-              lyrics: null,
-              tabs: null,
-            },
-            {
-              songTitle: 'untitled',
-              lyrics: null,
-              tabs: null,
-            },
-            {
               songTitle: 'Avalanche',
               lyrics: 'threnodist/avalanche',
               tabs: ['/files/Tegara_-_Avalanche_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Avalanche_solo_guitar_tabs.pdf'],
+            },
+            {
+              songTitle: 'untitled',
+              lyrics: null,
+              tabs: null,
+            },
+            {
+              songTitle: 'untitled',
+              lyrics: null,
+              tabs: null,
             },
             {
               songTitle: 'Black Sky Sunbath',
