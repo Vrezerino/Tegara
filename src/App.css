@@ -34,6 +34,10 @@ a {
   text-decoration: underline;
 }
 
+.rightAngle {
+  opacity: 0.2;
+}
+
 hr {
   border-width: 0;
 }

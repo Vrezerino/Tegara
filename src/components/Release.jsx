@@ -8,7 +8,7 @@ export function Song({ song, i }) {
   */ 
   return (
     <>
-      ∟ {song.unordered ? '?' : i}. {song.songTitle} 
+      <span className='rightAngle'>∟</span> {song.unordered ? '?' : i}. {song.songTitle} 
       {song.lyrics && (<Link to={`/lyrics/${song.lyrics}`}><span>lyrics</span></Link>)}
       {song.tabs?.map((t, i) => <a href={t}><span>tabs {i+1}</span></a>)}
       <br />
