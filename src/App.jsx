@@ -13,7 +13,7 @@ export default function App() {
             {
               songTitle: 'Prodome',
               lyrics: 'ultra_vesaniam/prodome',
-              tabs: ['/files/Tegara_-_Prodome_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Prodome_trash_guitar tabs.pdf'],
+              tabs: ['/files/Tegara_-_Prodome_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Prodome_trash_guitar_tabs.pdf'],
             },
           ]}
         />
