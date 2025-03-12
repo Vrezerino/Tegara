@@ -28,6 +28,16 @@ export default function App() {
               tabs: ['/files/Tegara_-_Threnodist_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Threnodist_lead_guitar_tabs.pdf'],
             },
             {
+              songTitle: 'untitled',
+              lyrics: null,
+              tabs: null,
+            },
+            {
+              songTitle: 'untitled',
+              lyrics: null,
+              tabs: null,
+            },
+            {
               songTitle: 'Avalanche',
               lyrics: 'threnodist/avalanche',
               tabs: ['/files/Tegara_-_Avalanche_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Avalanche_solo_guitar_tabs.pdf'],
@@ -36,25 +46,21 @@ export default function App() {
               songTitle: 'Black Sky Sunbath',
               lyrics: 'threnodist/black_sky_sunbath',
               tabs: ['/files/Tegara_-_Black_Sky_Sunbath_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Black_Sky_Sunbath_solo_guitar_tabs.pdf'],
-              unordered: true,
             },
             {
               songTitle: 'The Paramount Tenor',
               lyrics: 'threnodist/the_paramount_tenor',
               tabs: ['/files/Tegara_-_The_Paramount_Tenor_rhythm_guitar.pdf', '/files/Tegara_-_The_Paramount_Tenor_clean_and_trash_guitar.pdf'],
-              unordered: true,
             },
             {
               songTitle: 'Supermirage',
               lyrics: null,
               tabs: ['/files/Tegara_-_Supermirage_rhythm_guitar_tabs.pdf'],
-              unordered: true,
             },
             {
               songTitle: 'Dreamscape',
               lyrics: 'threnodist/dreamscape',
               tabs: null,
-              unordered: true,
             }
           ]}
         />
