@@ -60,7 +60,7 @@ export default function App() {
             {
               songTitle: 'Dreamscape',
               lyrics: 'threnodist/dreamscape',
-              tabs: null,
+              tabs: ['/files/Tegara_-_Dreamscape_rhythm_guitar_tabs.pdf'],
             }
           ]}
         />
