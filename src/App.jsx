@@ -54,7 +54,7 @@ export default function App() {
             },
             {
               songTitle: 'Supermirage',
-              lyrics: null,
+              lyrics: 'threnodist/supermirage',
               tabs: ['/files/Tegara_-_Supermirage_rhythm_guitar_tabs.pdf'],
             },
             {

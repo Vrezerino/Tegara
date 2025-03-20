@@ -176,6 +176,30 @@ The transient knows of substance
 Halt and feel no more
 Contemptuous impulse-latensification
 Perfunctory smile of a static eum-yang `,
+    Supermirage: `My ears not free from green surf's roar  
+Innocent cascades of marred waves
+Each iteration of me wandering here  
+The liminal walls brood just the same
+
+Persistence of impressionist fair weather
+Speaks to me of incandescent gloom
+Quests with no purpose stringed together
+Tied around a neck of arcanum
+
+I am awake in the same place
+Eyes peeled for dissatisfaction
+Evoked nothing the vignette of a dream 
+This is content — in it motions my chords
+
+Mute visage of this coniferous hill
+As if waiting for me to unearth verity
+Beckons me to stand in my ashen feel
+Moribund ether an atmosphere of peat
+
+Hypnagogia a refraction boundary
+No state the image doesn't live in
+Tarnished by mystery in gradient
+Is my own elysian reverie reflected back to me`,
     Dreamscape: `Me god
 Oh you know me
 Where'd you come from
