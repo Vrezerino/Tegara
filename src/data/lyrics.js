@@ -77,9 +77,9 @@ Doom-ostinatos stop dead in their tracks
 Fear has been pushed out of the sweat glands
 Curtains close on your emotions
 Was there a lesson that survives the encore`,
-    Threnodist: `Blessed is he who keeps pulling threads —
+    Threnodist: `Blessed is he who keeps pulling threads
 A lamenter catching reflections from within
-You, a seasoned sifu of requiems —
+You, a seasoned sifu of requiems
 The dirge master playing the largest violin
 
 Abhorring de-opacifications
@@ -92,7 +92,7 @@ Overlooking inverted Monet skies
 Would I like them boiled by the amplified noise floor
 Should I consume the resurrection of Christ
 
-The howling clouds gliding in our eyes —
+The howling clouds gliding in our eyes
 We know peace when they are restless
 Mists sailing on staff, allegro
 Playing the song of tristesse deathless
@@ -107,16 +107,16 @@ the successional blustering intervals
 I drag weights of bedrocks with me
 I bring together impossible walls 
 
-A suspended line — a tense fiber
+A suspended line, a tense fiber
 Cutting through ether unbent
-The ray of my soul — impartible —
+The ray of my soul, impartible
 Accompanying one's deafening tranquil
 
 Fuck you motherfucker and 
 let me perform a song of
 mourning for you right now
 
-The howling clouds gliding in our eyes —
+The howling clouds gliding in our eyes
 We know peace when they are restless
 Mists sailing on staff, allegro`,
     "The Paramount Tenor": `It will not enter their minds:
