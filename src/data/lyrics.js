@@ -200,7 +200,7 @@ Hypnagogia a refraction boundary
 No state the image doesn't live in
 Tarnished by mystery in gradient
 Is my own elysian reverie reflected back to me`,
-    Dreamscape: `Me god
+    "Triangular Hour": `Me god
 Oh you know me
 Where'd you come from
 

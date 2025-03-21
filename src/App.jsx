@@ -48,19 +48,24 @@ export default function App() {
               tabs: ['/files/Tegara_-_Black_Sky_Sunbath_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Black_Sky_Sunbath_solo_guitar_tabs.pdf'],
             },
             {
-              songTitle: 'The Paramount Tenor',
-              lyrics: 'threnodist/the_paramount_tenor',
-              tabs: ['/files/Tegara_-_The_Paramount_Tenor_rhythm_guitar.pdf', '/files/Tegara_-_The_Paramount_Tenor_clean_and_trash_guitar.pdf'],
-            },
-            {
               songTitle: 'Supermirage',
               lyrics: 'threnodist/supermirage',
               tabs: ['/files/Tegara_-_Supermirage_rhythm_guitar_tabs.pdf'],
             },
             {
-              songTitle: 'Dreamscape',
-              lyrics: 'threnodist/dreamscape',
-              tabs: ['/files/Tegara_-_Dreamscape_rhythm_guitar_tabs.pdf'],
+              songTitle: 'The Paramount Tenor',
+              lyrics: 'threnodist/the_paramount_tenor',
+              tabs: ['/files/Tegara_-_The_Paramount_Tenor_rhythm_guitar.pdf', '/files/Tegara_-_The_Paramount_Tenor_clean_and_trash_guitar.pdf'],
+            },
+            {
+              songTitle: 'Triangular Hour',
+              lyrics: 'threnodist/triangular_hour',
+              tabs: ['/files/Tegara_-_Triangular_Hour_rhythm_guitar_tabs.pdf'],
+            },
+            {
+              songTitle: 'Elysium',
+              lyrics: null,
+              tabs: null,
             }
           ]}
         />
