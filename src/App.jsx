@@ -38,7 +38,7 @@ export default function App() {
               tabs: null,
             },
             {
-              songTitle: 'untitled',
+              songTitle: 'Maze External',
               lyrics: null,
               tabs: null,
             },
