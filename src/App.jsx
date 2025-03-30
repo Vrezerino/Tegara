@@ -33,8 +33,8 @@ export default function App() {
               tabs: ['/files/Tegara_-_Avalanche_rhythm_guitar_tabs.pdf', '/files/Tegara_-_Avalanche_solo_guitar_tabs.pdf'],
             },
             {
-              songTitle: 'untitled',
-              lyrics: null,
+              songTitle: 'Enantiodromia',
+              lyrics: 'threnodist/enantiodromia',
               tabs: null,
             },
             {

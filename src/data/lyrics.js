@@ -215,6 +215,40 @@ Where'd you come from
 Me god
 Oh you know me
 Where'd you come from`,
+    Enantiodromia: `For it to have yielded and collapsed
+For it to emerge as buried opposite
+Now first inhibited and broken down
+Here cathexis of forces into power
+
+I observe, calculate and gaze upon
+I do nothing and everything
+Your jaw glimmers and rotates
+Your eyes uncased but not looking
+
+Your obvious, excessive commitment
+To collective, masking ideals
+Your persona a mere semblance
+Explosion precedes individuation
+
+Adornments we do not care for
+Veils so false and insipid
+Within confines of tighter limits
+Your operose patching up miscarries
+
+Speak
+Weep
+Screech
+Heal
+
+Pretend you are now what you were
+You are the protagonist with a reputation
+Negative restoration of your persona
+A caricature now brought about
+
+But dreaded for tactlessness
+Trapped and blind to the world
+A spectral Cassandra in disturbed state
+This possibility could you endure?`,
   },
   "Thousand Mile Stare": {
     "Congested Tortuosa": `Dissociated, unattached scanning -
