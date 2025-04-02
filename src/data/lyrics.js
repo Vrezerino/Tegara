@@ -249,6 +249,49 @@ But dreaded for tactlessness
 Trapped and blind to the world
 A spectral Cassandra in disturbed state
 This possibility could you endure?`,
+"Maze Exterior": `Why does one contain and comprehend
+Do you restore and recreate
+Inauthenticity within a maze
+This role can you perform and live
+
+Will it not collide with nor hide self
+Can you readapt and develop
+New and viable inside a tangle
+Resurface with decompression sickness
+
+Will it not collide
+Can you readapt
+New and viable
+Resurface
+
+Reinstatement initialized
+Begin a transfiguration total
+Decontamination of your network
+A funeral pyre of all
+
+Placid, compose, unshaken
+Unperturbed, lubricated
+Are you thinking yourself back
+Are you executing impeccably
+
+Keep throwing yourself forward
+You are unfettered and unperturbed
+Twist and turn intrinsic redshifts blue
+
+Reality is what you're vitrified in
+Pinioned while "reborn" inside a catacomb
+I am beside you and limber as the wicopy
+You're an absent, extinguished core
+
+Will it not collide
+Can you readapt
+New and viable
+Resurface
+
+Why does one contain
+Do you restore
+Inauthenticity
+You can not perform`
   },
   "Thousand Mile Stare": {
     "Congested Tortuosa": `Dissociated, unattached scanning -

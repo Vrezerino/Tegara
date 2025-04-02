@@ -38,8 +38,8 @@ export default function App() {
               tabs: null,
             },
             {
-              songTitle: 'Maze External',
-              lyrics: null,
+              songTitle: 'Maze Exterior',
+              lyrics: 'threnodist/maze_exterior',
               tabs: null,
             },
             {
