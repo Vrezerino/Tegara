@@ -35,12 +35,12 @@ export default function App() {
             {
               songTitle: 'Enantiodromia',
               lyrics: 'threnodist/enantiodromia',
-              tabs: null,
+              tabs: 'Tegara_-_Enantiodromia_rhythm_guitar_tabs.pdf',
             },
             {
               songTitle: 'Maze Exterior',
               lyrics: 'threnodist/maze_exterior',
-              tabs: null,
+              tabs: 'Tegara_-_Maze_Exterior_rhythm_guitar_tabs.pdf',
             },
             {
               songTitle: 'Black Sky Sunbath',
