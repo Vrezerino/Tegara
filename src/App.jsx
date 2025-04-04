@@ -132,14 +132,17 @@ export default function App() {
 
       <div style={{ marginTop: '2em' }}>
         <a href='https://tegara.bandcamp.com' rel='noreferrer' target='_blank'>
-          <img alt='Bandcamp logo' src='img/bc.png' />
+          <img className='streamingServiceImg' alt='Bandcamp logo' src='img/bc.png' />
         </a>
         <a
           href='https://www.youtube.com/channel/UCpsAMSv_ebDxEEjgkyy435g'
           rel='noreferrer'
           target='_blank'
         >
-          <img alt='YouTube logo' src='img/yt.png' />
+          <img className='streamingServiceImg' alt='YouTube logo' src='img/yt.png' />
+        </a>
+        <a href='https://open.spotify.com/artist/7FDUzb8gHQ45DZX9ubj2pp?si=eOfBPNk9RGyjwjQP_UkCHw' rel='noreferrer' target='_blank'>
+          <img className='streamingServiceImg' alt='Spotify logo' src='img/spotify.png' />
         </a>
         {/**<a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
       <img alt='PayPal donate button' src='img/donatebtn.png' />

@@ -283,7 +283,6 @@ Pinioned while "reborn" inside a catacomb
 I am beside you and limber as the wicopy
 You're an absent, extinguished core
 
-Will it not collide
 Can you readapt
 New and viable
 Resurface

@@ -17,6 +17,8 @@
 * {
   font-family: Baskerville;
   letter-spacing: .1rem;
+  text-transform: uppercase;
+  font-size: small;
 }
 
 html {
@@ -27,6 +29,7 @@ html {
 
 .releaseTitle {
   text-transform: uppercase;
+  font-size: medium;
 }
 
 a {
@@ -55,8 +58,13 @@ hr {
 }
 
 span {
-  font-size: small;
   margin: 0 0.5em;
+}
+
+.streamingServiceImg {
+  margin: 0 0.3em 0 0;
+  width: 42px;
+  height: 42px;
 }
 
 footer {
