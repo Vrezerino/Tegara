@@ -17,8 +17,6 @@
 * {
   font-family: Baskerville;
   letter-spacing: .1rem;
-  text-transform: uppercase;
-  font-size: small;
 }
 
 html {
@@ -33,12 +31,13 @@ html {
 }
 
 a {
-  color: brown;
-  text-decoration: underline;
+  color: rgb(15, 91, 255);
+  text-decoration: rgb(15, 91, 255) underline;
 }
 
 .rightAngle {
   opacity: 0.2;
+  margin: 0;
 }
 
 hr {
@@ -58,7 +57,22 @@ hr {
 }
 
 span {
-  margin: 0 0.5em;
+  font-size: smaller;
+}
+
+.songDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: small;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 14px;
+}
+
+.songItemLink {
+  margin: 0 3px;
 }
 
 .streamingServiceImg {

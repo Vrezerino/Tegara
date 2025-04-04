@@ -7,12 +7,12 @@ export function Song({ song, i }) {
    *
   */ 
   return (
-    <>
+    <div className='songDiv'>
       <span className='rightAngle'>∟</span> {song.unordered ? '?' : i}. {song.songTitle} 
-      {song.lyrics && (<Link to={`/lyrics/${song.lyrics}`}><span>lyrics</span></Link>)}
-      {song.tabs?.map((t, i) => <a href={t}><span>tabs {i+1}</span></a>)}
+      {song.lyrics && (<Link to={`/lyrics/${song.lyrics}`}><span className='songItemLink'>lyrics</span></Link>)}
+      {song.tabs?.map((t, i) => <a href={t}><span className='songItemLink'>tabs {i+1}</span></a>)}
       <br />
-    </>
+    </div>
   )
 }
 

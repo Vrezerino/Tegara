@@ -12,6 +12,7 @@ export function Lyrics() {
     <>
       <div class='lyricsContainer'>{lyrics[albumTitle][songTitle]}</div>
       <div style={{ marginTop: '2em' }}><Link to='/'>← Index</Link></div>
+      <div style={{ height: '3em' }}></div>
     </>
   );
 }
