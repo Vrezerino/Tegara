@@ -14,7 +14,7 @@ export default function Song() {
 
   return (
     <>
-      <div className='lyricsContainer'>{songResult.lyrics}</div>
+      <div className='lyricsContainer'>{songResult.lyrics ?? '[instrumental]'}</div>
       <div style={{ marginTop: '2em' }}>
         <Link to='/'>← Index</Link>
       </div>
