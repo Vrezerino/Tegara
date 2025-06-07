@@ -1,27 +1,29 @@
 import { Link } from 'react-router-dom';
 
-export function Song({ song, i }) {
-  /**
-   * song.unordered just indicates if a song's order number 
-   * hasn't been decided yet; the release is under making
-   *
-  */ 
+export function SongTitle({ songTitle, albumTitle, i }) {
   return (
-    <div className='songDiv'>
-      <span className='rightAngle'>∟</span> {song.unordered ? '?' : i}. {song.songTitle} 
-      {song.lyrics && (<Link to={`/lyrics/${song.lyrics}`}><span className='songItemLink'>lyrics</span></Link>)}
-      {song.tabs?.map((t, i) => <a href={t}><span className='songItemLink'>tabs {i+1}</span></a>)}
-      <br />
+    <div key={`${songTitle}TitleDiv`} className='songTitleDiv'>
+      <span className='rightAngle'>∟</span> {i + 1}.&nbsp;
+      <Link to={`/song/${albumTitle}/${songTitle.replaceAll(' ', '_')}`}>
+        {songTitle}
+      </Link>
     </div>
-  )
+  );
 }
 
 export default function Release({ title, year, songs }) {
+  const albumTitle = title.replaceAll(' ', '_');
+
   return (
     <>
-      <b className='releaseTitle'>{title} ({year})</b><br />
-      {songs.map((s, i) => <Song song={s} i={i+1} key={s.songTitle} />) }
+      <b className='releaseTitle'>
+        {title} ({year})
+      </b>
+      <br />
+      {songs.map((s, i) => (
+        <SongTitle songTitle={s.title} albumTitle={albumTitle} i={i} />
+      ))}
       <hr />
     </>
-  )
+  );
 }
