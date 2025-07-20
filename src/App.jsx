@@ -5,9 +5,11 @@ import { releases } from './data/releases';
 export default function App() {
   return (
     <>
-      {releases.map((r, i) => (
-        <Release key={i} title={r.title} year={r.year} songs={r.songs} />
-      ))}
+      <div className='releasesContainer'>
+        {releases.map((r, i) => (
+          <Release key={i} title={r.title} year={r.year} songs={r.songs} />
+        ))}
+      </div>
 
       <div style={{ marginTop: '2em' }}>
         <a href='https://tegara.bandcamp.com' rel='noreferrer' target='_blank'>
