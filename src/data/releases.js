@@ -1,5 +1,10 @@
 export const releases = [
   {
+    title: 'Persona',
+    year: 2025,
+    songs: null
+  },
+  {
     title: 'Ultra Vesaniam',
     year: 2025,
     songs: [

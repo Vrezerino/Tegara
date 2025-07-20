@@ -20,7 +20,7 @@ export default function Release({ title, year, songs }) {
         {title} ({year})
       </b>
       <br />
-      {songs.map((s, i) => (
+      {songs?.map((s, i) => (
         <SongTitle songTitle={s.title} albumTitle={albumTitle} i={i} />
       ))}
       <hr />
