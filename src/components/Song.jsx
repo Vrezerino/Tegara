@@ -13,29 +13,35 @@ export default function Song() {
     ?.songs.find((s) => s.title === songTitle);
 
   return (
-    <>
-      <div className='lyricsContainer'>
-        {songResult.lyrics ?? '[instrumental]'}
-      </div>
+    <main className='page'>
+      {songResult ? (
+        <>
+          <section className='lyricsContainer'>
+            {songResult.lyrics ?? '[instrumental]'}
+          </section>
 
-      <div className='tabsContainer'>
-        {songResult.tabs?.map((t, i) => (
-          <a href={t.url} key={i}>
-            <p className='songItemLink' key={i}>
-              <img
-                className='PdfDocIconImg'
-                alt='PDF document icon'
-                src='/img/pdf-doc-icon.png'
-              />
-              {t.desc}
-            </p>
-          </a>
-        ))}
-      </div>
+          <section className='tabsContainer'>
+            {songResult.tabs?.map((t, i) => (
+              <a href={t.url} key={i}>
+                <p className='songItemLink' key={i}>
+                  <img
+                    className='PdfDocIconImg'
+                    alt='PDF document icon'
+                    src='/img/pdf-doc-icon.png'
+                  />
+                  {t.desc}
+                </p>
+              </a>
+            ))}
+          </section>
+        </>
+      ) : (
+        <>[not available]</>
+      )}
 
-      <div className='backToIndexDiv'>
+      <section className='backToIndexDiv'>
         <Link to='/'>← Index</Link>
-      </div>
-    </>
+      </section>
+    </main>
   );
 }

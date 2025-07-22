@@ -2,7 +2,43 @@ export const releases = [
   {
     title: 'Persona',
     year: 2025,
-    songs: null
+    songs: [
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+      {
+        title: 'notitle',
+        lyrics: null,
+        tabs: [],
+      },
+    ],
   },
   {
     title: 'Ultra Vesaniam',
