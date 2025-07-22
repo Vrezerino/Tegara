@@ -32,9 +32,11 @@ body {
 
 .page {
   margin-top: 4em;
+  margin-bottom: 4em;
 }
 
-h2, .releaseTitle {
+h2,
+.releaseTitle {
   text-transform: uppercase;
   font-size: medium;
 }
@@ -66,17 +68,14 @@ ul li {
   list-style: none;
 }
 
-.bioContainer, .lyricsContainer {
+.bioContainer,
+.lyricsContainer {
   line-height: 0.97;
   white-space: pre-line;
 }
 
 .tabsContainer {
   margin: 3em 0 3em 0;
-}
-
-.backToIndexDiv {
-  margin-bottom: 3em;
 }
 
 span {
@@ -113,9 +112,8 @@ span {
 
 header,
 footer {
-  text-align: center;
+  text-align: left;
   font-size: smaller;
-  position: fixed;
 }
 
 header {
@@ -125,4 +123,6 @@ header {
 footer {
   bottom: 0;
   opacity: 85%;
+  background-color: black;
+  position: fixed;
 }
