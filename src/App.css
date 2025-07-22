@@ -1,7 +1,7 @@
 @keyframes emerge {
   from {
     opacity: 0;
-    margin-top: -1%;
+    margin-top: -0.4%;
   }
 
   to {
@@ -25,14 +25,23 @@ html {
   color: white;
 }
 
-.releaseTitle {
+body {
+  animation: 1.2s emerge;
+  margin: 3px;
+}
+
+.page {
+  margin-top: 4em;
+}
+
+h2, .releaseTitle {
   text-transform: uppercase;
   font-size: medium;
 }
 
 a {
-  color: rgb(213, 221, 255);
-  text-decoration: rgb(213, 221, 255);
+  color: rgb(217, 217, 217);
+  text-decoration: rgb(217, 217, 217);
 }
 
 .rightAngle {
@@ -45,14 +54,20 @@ hr {
 }
 
 .bioContainer {
+  max-width: 500px;
   margin-bottom: 2em;
+  text-align: justify;
 }
 
-.releasesContainer {
-  animation: 1.2s emerge;
+ul li {
+  margin-bottom: -1px !important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.lyricsContainer {
+.bioContainer, .lyricsContainer {
+  line-height: 0.97;
   white-space: pre-line;
 }
 
@@ -73,7 +88,6 @@ span {
   flex-direction: row;
   align-items: center;
   font-size: normal;
-  text-transform: uppercase;
   display: flex;
   align-items: center;
   height: 14px;
@@ -97,10 +111,18 @@ span {
   height: 33px;
 }
 
+header,
 footer {
   text-align: center;
   font-size: smaller;
   position: fixed;
+}
+
+header {
+  top: 0;
+}
+
+footer {
   bottom: 0;
-  opacity: 40%;
+  opacity: 85%;
 }

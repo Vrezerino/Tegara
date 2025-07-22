@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
     return (
         <footer>
-            © 2025 Tegara a.k.a Patrick Park
+            <Link to='/'>Releases</Link> ❉ <Link to='/bio'>Biography</Link>
         </footer>
     );
 }

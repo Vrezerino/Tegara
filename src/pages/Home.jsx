@@ -1,17 +1,17 @@
-import './App.css';
-import Release from './components/Release';
-import { releases } from './data/releases';
+import '../App.css'
+import Release from '../components/Release';
+import { releases } from '../data/releases';
 
-export default function App() {
+export default function Home() {
   return (
-    <>
-      <div className='releasesContainer'>
-        {releases.map((r, i) => (
-          <Release key={i} title={r.title} year={r.year} songs={r.songs} />
+    <main className='page'>
+      <section className='releasesContainer'>
+        {releases.map((r) => (
+          <Release key={r.title} title={r.title} year={r.year} songs={r.songs} />
         ))}
-      </div>
+      </section>
 
-      <div style={{ marginTop: '2em' }}>
+      <section style={{ marginTop: '2em' }}>
         <a href='https://tegara.bandcamp.com' rel='noreferrer' target='_blank'>
           <img
             className='streamingServiceImg'
@@ -44,7 +44,7 @@ export default function App() {
         {/**<a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
       <img alt='PayPal donate button' src='img/donatebtn.png' />
     </a>*/}
-      </div>
-    </>
+      </section>
+    </main>
   );
 }
