@@ -48,7 +48,7 @@ h2,
 
 a {
   color: rgb(217, 217, 217);
-  text-decoration: rgb(217, 217, 217);
+  text-decoration: underline dotted rgba(217, 217, 217, 0.4);
 }
 
 .rightAngle {
