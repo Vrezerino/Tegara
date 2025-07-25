@@ -30,6 +30,11 @@ body {
   margin: 3px;
 }
 
+nav {
+  margin-left: 2em;
+  opacity: 0.83;
+}
+
 .page {
   margin-top: 4em;
   margin-bottom: 4em;
@@ -78,7 +83,7 @@ ul li {
   margin: 3em 0 3em 0;
 }
 
-span {
+span, .medleyText, .commentText {
   font-size: smaller;
 }
 
@@ -125,4 +130,8 @@ footer {
   opacity: 85%;
   background-color: black;
   position: fixed;
+}
+
+audio {
+  border-radius: 15px;
 }
