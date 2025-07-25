@@ -6,6 +6,8 @@ export default function Bio() {
           Founded by Patrick Park in 2009 having already had produced other styles
           of music for seven years, <i>Tegara</i> is an experimental death metal
           project that's in the past gone with various other names such as Vres.
+          Lyrics, vocals, composition, recording, drum programming, mixing and mastering
+          all by Patrick, unless stated otherwise in discography comments.
         </p>
 
         <p>

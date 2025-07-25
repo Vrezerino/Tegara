@@ -4,41 +4,42 @@ export const releases = [
     year: 2025,
     songs: [
       {
-        title: 'notitle',
+        title: 'notitle 1',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle',
+        title: 'notitle 2',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle',
+        title: 'notitle 3',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle',
+        title: 'notitle 4',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle',
+        title: 'notitle 5',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle',
+        title: 'notitle 6',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle',
+        title: 'notitle 7',
         lyrics: null,
         tabs: [],
       },
     ],
+    comments: null
   },
   {
     title: 'Ultra Vesaniam',
@@ -95,6 +96,7 @@ I am the end-user of feverish static
         ],
       },
     ],
+    comments: null
   },
   {
     title: 'Threnodist',
@@ -508,6 +510,7 @@ Where'd you come from`,
         tabs: [],
       },
     ],
+    comments: null
   },
   {
     title: 'Thousand Mile Stare',
@@ -587,6 +590,7 @@ intercalate into fibers of self!`,
         tabs: [],
       },
     ],
+    comments: null
   },
   {
     title: 'Stochasticity',
@@ -728,5 +732,6 @@ This plexus decongested gains air to breathe `,
         tabs: [],
       },
     ],
+    comments: `Vocals and half the lyrics by Forest "Tephomab" Raible.`
   },
 ];
