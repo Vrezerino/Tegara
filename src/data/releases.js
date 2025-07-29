@@ -4,13 +4,29 @@ export const releases = [
     year: 2025,
     songs: [
       {
-        title: 'notitle 1',
-        lyrics: null,
+        title: 'Bite',
+        lyrics: `That's the user of your body talking
+You will never be oneness
+I should only trust your gaze
+Bite down on your fucking neck
+
+Value-judgments won't survive
+Your naked mind sitting beside me
+You are most present when absent
+Soul not random, not stochastic`,
         tabs: [],
       },
       {
-        title: 'notitle 2',
-        lyrics: null,
+        title: 'In A Gelid World',
+        lyrics: `On azure pastures my verdant mind rolls
+Lunatic glitter lines all thought threads
+In a gelid world is sangfroid born
+Within suspended phantasmagoria we prance
+
+And is it that everything could be
+Not un-being from beingness between
+A square assembly of a dozen cypresses
+Only an enigma of wintry doggedness`,
         tabs: [],
       },
       {
@@ -39,7 +55,7 @@ export const releases = [
         tabs: [],
       },
     ],
-    comments: null
+    comments: null,
   },
   {
     title: 'Ultra Vesaniam',
@@ -96,7 +112,7 @@ I am the end-user of feverish static
         ],
       },
     ],
-    comments: null
+    comments: null,
   },
   {
     title: 'Threnodist',
@@ -510,7 +526,7 @@ Where'd you come from`,
         tabs: [],
       },
     ],
-    comments: null
+    comments: null,
   },
   {
     title: 'Thousand Mile Stare',
@@ -590,7 +606,7 @@ intercalate into fibers of self!`,
         tabs: [],
       },
     ],
-    comments: null
+    comments: null,
   },
   {
     title: 'Stochasticity',
@@ -732,6 +748,6 @@ This plexus decongested gains air to breathe `,
         tabs: [],
       },
     ],
-    comments: `Vocals and half the lyrics by Forest "Tephomab" Raible.`
+    comments: `Vocals and half the lyrics by Forest "Tephomab" Raible.`,
   },
 ];
