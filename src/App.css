@@ -20,7 +20,9 @@
 }
 
 html {
-  background-image: url("../public/img/0037105316_130.jpg");
+  background-image: url("../public/img/p3.avif");
+  background-size: cover;
+  background-repeat: repeat-y;
   background-color: black;
   color: white;
 }
@@ -83,7 +85,9 @@ ul li {
   margin: 3em 0 3em 0;
 }
 
-span, .medleyText, .commentText {
+span,
+.medleyText,
+.commentText {
   font-size: smaller;
 }
 
