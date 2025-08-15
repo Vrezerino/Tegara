@@ -17,7 +17,7 @@ Soul not random, not stochastic`,
         tabs: [],
       },
       {
-        title: 'In A Gelid World',
+        title: 'On Azure Pastures',
         lyrics: `On azure pastures my verdant mind rolls
 Lunatic glitter lines all thought threads
 In a gelid world is sangfroid born
