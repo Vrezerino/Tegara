@@ -30,27 +30,81 @@ Only an enigma of wintry doggedness`,
         tabs: [],
       },
       {
-        title: 'notitle 3',
+        title: 'Pedagogy Of Dead Angles',
+        lyrics: `I ground myself and turn my hips
+You are a person when I see you flinch
+Relentless pelting with pomegranates
+As per the pedagogy of dead angles
+
+Debar
+Liquefy
+Occupy
+Indurate
+
+Pounding at your inverted hide
+I am unreal when you see me hit
+Transient; baffling; elusive
+Sway of distorted air diffusive
+
+Debar
+Liquefy
+Occupy
+Indurate`,
+        tabs: [],
+      },
+      {
+        title: 'Ought',
+        lyrics: `Is is is is is is is is
+Is is is is is is is
+Is is is is is is
+Is is is is is
+
+Is is is is is
+Is is is is is is
+Is is is is is is is
+Is is is is is is is is
+
+Is is is is is is is is
+Is is is is is is is
+Is is is is is is
+Is is is is is
+
+Is is is is is
+Is is is is is is
+Is is is is is is is
+Is is is is is is is is`,
+        tabs: [],
+      },
+      {
+        title: 'Metanoia',
         lyrics: null,
         tabs: [],
       },
       {
-        title: 'notitle 4',
-        lyrics: null,
+        title: 'Xylene Touch',
+        lyrics: `Encasement in tetrahedral thought
+Lobotomized reality on a spinning dais
+Contemptible decalcomanias of pretension
+Anywhen a xylene touch of restoration
+
+Front is behind my static eyes
+Strike an unresponsive chord contorted
+Lest I be perturbed by bedrock
+A chariot drawn by tigers flies me away
+
+How come time is a snap of my fingers
+Divine and insane reality-impulse
+Speak the truth of hypnagogic lies
+Outside the interlaced frames around us
+
+Travertine floor boundless in all directions
+A greeting figure atop a sole column
+Brass lions and archs sprung from a bust
+Open place forever contained in amber dusk`,
         tabs: [],
       },
       {
-        title: 'notitle 5',
-        lyrics: null,
-        tabs: [],
-      },
-      {
-        title: 'notitle 6',
-        lyrics: null,
-        tabs: [],
-      },
-      {
-        title: 'notitle 7',
+        title: 'Null Polarization',
         lyrics: null,
         tabs: [],
       },
