@@ -51,7 +51,7 @@ h2,
 
 a {
   color: rgb(217, 217, 217);
-  text-decoration: underline dotted rgba(217, 217, 217, 0.4);
+  text-decoration: underline dotted rgba(217, 217, 217, 0.6);
 }
 
 .rightAngle {
@@ -105,7 +105,7 @@ span,
   font-size: normal;
   display: flex;
   align-items: center;
-  height: 14px;
+  height: 17px;
 }
 
 .songItemLink {

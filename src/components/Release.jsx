@@ -18,7 +18,7 @@ export default function Release({ title, year, songs, comments }) {
   const albumTitle = title.replaceAll(' ', '_');
   const audioSrc = `files/audio/${title}.mp3`;
 
-  // Check if medley audio exists before rendering player
+  // Check if medley audio exists
   useEffect(() => {
     const checkAudio = async () => {
       try {
