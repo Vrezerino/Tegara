@@ -15,7 +15,6 @@ export function SongTitle({ songTitle, albumTitle, i }) {
 export default function Release({ title, year, songs, comments }) {
   const audioRef = useRef(null);
   const [audioAvailable, setAudioAvailable] = useState(false);
-  const [checked, setChecked] = useState(false);
   const albumTitle = title.replaceAll(' ', '_');
   const audioSrc = `files/audio/${title}.mp3`;
 
@@ -29,10 +28,7 @@ export default function Release({ title, year, songs, comments }) {
         if (res.ok && isAudio) setAudioAvailable(true);
       } catch (e) {
         console.warn(`Audio file not found for ${title}!`);
-      } finally {
-        setChecked(true);
       }
-
     };
     checkAudio();
   }, [audioSrc, title]);
@@ -60,17 +56,26 @@ export default function Release({ title, year, songs, comments }) {
 
       <p className='commentText'>{comments}</p>
 
-      {checked && audioAvailable && (
-        <>
-          <p className='medleyText'>
-            Listen to <i><b>{title}</b></i> medley:
-          </p>
-          <audio ref={audioRef} controls>
-            <source src={audioSrc} type='audio/mp3' />
-            Your browser does not support the audio element.
-          </audio>
-        </>
-      )}
+      <p className='medleyText'>
+        {audioAvailable ? (
+          <>Listen to{' '}<i><b>{title}</b></i>{' '}medley:</>
+        ) : (
+          <><i><b>{title}</b></i>{' '}medley coming soon.</>
+        )}
+      </p>
+
+      <audio
+        ref={audioRef}
+        controls
+        src={audioAvailable ? audioSrc : undefined}
+        style={{
+          opacity: audioAvailable ? 1 : 0.5,
+          pointerEvents: audioAvailable ? 'auto' : 'none',
+          cursor: audioAvailable ? 'auto' : 'not-allowed',
+        }}
+      >
+        Your browser does not support the audio element.
+      </audio>
 
       <hr />
     </article>
