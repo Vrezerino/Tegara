@@ -58,9 +58,9 @@ export default function Release({ title, year, songs, comments }) {
 
       <p className='medleyText'>
         {audioAvailable ? (
-          <>Listen to{' '}<i><b>{title}</b></i>{' '}medley:</>
+          <>Listen to <span className='titleInMedley'>{title}</span> medley:</>
         ) : (
-          <><i><b>{title}</b></i>{' '}medley coming soon.</>
+          <><span className='titleInMedley'>{title}</span> medley coming soon.</>
         )}
       </p>
 

@@ -92,6 +92,12 @@ span,
   font-size: smaller;
 }
 
+.titleInMedley {
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .songTitleDiv {
   display: flex;
   flex-direction: row;
