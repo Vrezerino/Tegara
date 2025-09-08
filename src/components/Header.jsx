@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import StreamLinks from './StreamLinks';
 
 export default function Header() {
   return (
@@ -10,6 +11,8 @@ export default function Header() {
       <nav>
         <Link to='/'>Discography</Link> ❉ <Link to='/bio'>Biography</Link>
       </nav>
+
+      <StreamLinks />
     </header>
   );
 }

@@ -92,6 +92,10 @@ span,
   font-size: smaller;
 }
 
+.commentText {
+  white-space: pre-line;
+}
+
 .titleInMedley {
   font-size: small;
   font-style: italic;
