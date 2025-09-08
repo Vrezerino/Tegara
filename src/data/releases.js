@@ -166,7 +166,8 @@ I am the end-user of feverish static
         ],
       },
     ],
-    comments: null,
+    comments: `Not known if there ever will be a full-length release.
+    Prodome is a single release for now, combined with the intro.`,
   },
   {
     title: 'Threnodist',
