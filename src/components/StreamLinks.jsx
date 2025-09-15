@@ -5,7 +5,7 @@ export default function StreamLinks() {
         <img
           className='streamingServiceImg'
           alt='Bandcamp logo'
-          src='img/bc_logo.png'
+          src='/img/bc_logo.png'
         />
       </a>
       <a
@@ -16,7 +16,7 @@ export default function StreamLinks() {
         <img
           className='streamingServiceImg'
           alt='YouTube logo'
-          src='img/yt_logo.png'
+          src='/img/yt_logo.png'
         />
       </a>
       <a
@@ -27,14 +27,14 @@ export default function StreamLinks() {
         <img
           className='streamingServiceImg'
           alt='Spotify logo'
-          src='img/spotify_logo.png'
+          src='/img/spotify_logo.png'
         />
       </a>
       <a href='https://soundcloud.com/tegara' rel='noreferrer' target='_blank'>
         <img
           className='streamingServiceImg'
           alt='Soundcloud logo'
-          src='img/sc_logo.png'
+          src='/img/sc_logo.png'
         />
       </a>
       {/**<a href='https://paypal.me/vrescendo?locale.x=en_US' rel='noreferrer' target='_blank'>
