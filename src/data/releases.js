@@ -77,7 +77,25 @@ Is is is is is is is is`,
       },
       {
         title: 'Metanoia',
-        lyrics: null,
+        lyrics: `Twice-born clock wrapped in a void absurd
+Still life of mind-consumed wretched minutes
+As complacent as it was vivid
+This disarray of yours an assortment of deaths
+
+Persona exploded and reassembled
+Gadarene configuration tempered
+Runtime errors all snubbed and unhandled
+A thermally toughened new idiot maintained
+
+An expanse of scenery where a mind is born unsecured
+You are most real and undefined
+Conchoidal lies shimmer and play in red gold
+Visit the pitiable enigma of desires
+
+Everything is you and it is contained
+Cast only light and devour a shore
+Music up in a swell before commercial
+And here is a scene from next week's gestalt`,
         tabs: [],
       },
       {
@@ -101,7 +119,7 @@ Travertine floor boundless in all directions
 A greeting figure atop a sole column
 Brass lions and archs sprung from a bust
 Open place forever contained in amber dusk`,
-        tabs: [],
+        tabs: ['/files/Tegara_-_Xylene_Touch_rhythm_guitar_tabs.pdf'],
       },
       {
         title: 'Null Polarization',
