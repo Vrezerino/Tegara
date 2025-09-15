@@ -119,7 +119,12 @@ Travertine floor boundless in all directions
 A greeting figure atop a sole column
 Brass lions and archs sprung from a bust
 Open place forever contained in amber dusk`,
-        tabs: ['/files/Tegara_-_Xylene_Touch_rhythm_guitar_tabs.pdf'],
+        tabs: [
+          {
+            url: '/files/Tegara_-_Xylene_Touch_rhythm_guitar_tabs.pdf',
+            desc: 'Rhythm guitar tabs',
+          },
+        ],
       },
       {
         title: 'Null Polarization',
