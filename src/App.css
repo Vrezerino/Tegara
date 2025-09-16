@@ -20,17 +20,26 @@
 }
 
 html {
-  background-image: url("../public/img/p3.avif");
+  background-image: url("../public/img/p3_inverted.avif");
   background-size: cover;
   background-repeat: repeat-y;
   background-color: black;
-  color: white;
-  text-shadow: 3px 3px black;
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+  /* text-shadow: 2px 2px white; */
 }
 
 body {
   animation: 1.2s emerge;
   margin: 3px;
+}
+
+header img {
+  filter: invert(1);
 }
 
 nav {
@@ -50,8 +59,8 @@ h2,
 }
 
 a {
-  color: rgb(217, 217, 217);
-  text-decoration: underline dotted rgba(217, 217, 217, 0.6);
+  color: black;
+  /* text-decoration: underline dotted rgba(217, 217, 217, 0.6); */
 }
 
 .rightAngle {
@@ -61,6 +70,10 @@ a {
 
 hr {
   border-width: 0;
+}
+
+audio {
+  text-shadow: none;
 }
 
 .bioContainer {
