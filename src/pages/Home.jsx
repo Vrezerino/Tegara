@@ -1,6 +1,5 @@
 import '../App.css';
 import Release from '../components/Release';
-import StreamLinks from '../components/StreamLinks';
 import { releases } from '../data/releases';
 
 export default function Home() {

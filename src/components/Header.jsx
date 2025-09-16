@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Link to='/'>
-        <img src='/img/TEGARA.png' alt='Tegara logo' height='30' width='238' />
+        <img className='logo' src='/img/TEGARA.png' alt='Tegara logo' height='30' width='238' />
       </Link>
       <br />
       <nav>
