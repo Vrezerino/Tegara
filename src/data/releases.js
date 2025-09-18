@@ -110,15 +110,25 @@ Strike an unresponsive chord contorted
 Lest I be perturbed by bedrock
 A chariot drawn by tigers flies me away
 
+Eyeing askance at subatomic lies
+Distill and bathe in aromatic axioms
+Meant to be distorted and pulled apart
+Calls for my prompt treatment the siccative framework
+
+Uncreate
+Mutilate
+Dissolve
+Resolve
+
 How come time is a snap of my fingers
 Divine and insane reality-impulse
 Speak the truth of hypnagogic lies
 Outside the interlaced frames around us
 
 Travertine floor boundless in all directions
-A greeting figure atop a sole column
 Brass lions and archs sprung from a bust
-Open place forever contained in amber dusk`,
+Open place forever contained in amber dusk
+`,
         tabs: [
           {
             url: '/files/Tegara_-_Xylene_Touch_rhythm_guitar_tabs.pdf',
