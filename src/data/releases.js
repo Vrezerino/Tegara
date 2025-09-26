@@ -96,7 +96,12 @@ Everything is you and it is contained
 Cast only light and devour a shore
 Music up in a swell before commercial
 And here is a scene from next week's gestalt`,
-        tabs: [],
+        tabs: [
+          {
+            url: '/files/Tegara_-_Metanoia_rhythm_guitar_tabs.pdf',
+            desc: 'Rhythm guitar tabs',
+          },
+        ],
       },
       {
         title: 'Xylene Touch',
