@@ -152,7 +152,7 @@ Open place forever contained in amber dusk
         tabs: [],
       },
     ],
-    comments: null,
+    comments: `The riffs are getting harder, even more so on future releases, and the focus on sleek clear-cut grooves isn't the main thing any longer.`,
   },
   {
     title: 'Ultra Vesaniam',
@@ -209,7 +209,7 @@ I am the end-user of feverish static
         ],
       },
     ],
-    comments: `Expected completion and release around Dec 25.`,
+    comments: `Left as a single release.`,
   },
   {
     title: 'Threnodist',
