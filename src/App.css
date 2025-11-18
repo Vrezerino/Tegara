@@ -107,6 +107,7 @@ span,
 
 .commentText {
   white-space: pre-line;
+  max-width: 350px;
 }
 
 .titleInMedley {
