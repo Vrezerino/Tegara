@@ -87,6 +87,10 @@ audio {
   margin: 0;
 }
 
+.blogContainer p {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .blogContainer p:first-of-type::first-letter {
   font-size: 100px;
   display: block;
