@@ -2,6 +2,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import Home from './pages/Home';
 import Bio from './pages/Bio';
+import Blog from './pages/Blog';
+
 import Song from './components/Song';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,6 +16,7 @@ ReactDOM.createRoot(root).render(
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/bio' element={<Bio />} />
+      <Route path='/blog' element={<Blog />} />
       <Route path='/song/:album/:song' element={<Song />} />
     </Routes>
     <Footer />

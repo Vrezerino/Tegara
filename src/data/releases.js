@@ -152,7 +152,7 @@ Open place forever contained in amber dusk
         tabs: [],
       },
     ],
-    comments: `The riffs are getting harder, even more so on future releases, and the focus on sleek clear-cut grooves isn't the main thing any longer.`,
+    comments: `There is no focus on sleek clear-cut grooves any longer and death metal sound is winning over from here on out.`,
   },
   {
     title: 'Ultra Vesaniam',

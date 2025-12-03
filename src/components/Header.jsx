@@ -9,7 +9,7 @@ export default function Header() {
       </Link>
       <br />
       <nav>
-        <Link to='/'>Discography</Link> ❉ <Link to='/bio'>Biography</Link>
+        <Link to='/'>Discography</Link> ❉ <Link to='/bio'>Biography</Link> ❉ <Link to='/blog'>Blog</Link>
       </nav>
 
       <StreamLinks />
