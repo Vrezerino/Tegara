@@ -76,10 +76,23 @@ audio {
   text-shadow: none;
 }
 
-.bioContainer {
+.bioContainer,
+.blogContainer {
   max-width: 500px;
   margin-bottom: 2em;
   text-align: justify;
+}
+
+.blogContainer h1 {
+  margin: 0;
+}
+
+.blogContainer p:first-of-type::first-letter {
+  font-size: 100px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 10px 0;
 }
 
 ul li {
@@ -90,6 +103,7 @@ ul li {
 }
 
 .bioContainer,
+.blogContainer,
 .lyricsContainer {
   line-height: 0.97;
   white-space: pre-line;
