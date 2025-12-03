@@ -15,6 +15,7 @@ export default function Bio() {
         <ul>
           <li>Strandberg Boden 8 White Classic</li>
           <li>DR strings</li>
+          <li>Elixir strings</li>
           <li>Sojing hollowbody bass guitar</li>
           <li>Line 6 UX1</li>
           <li>Yamaha HS7</li>
