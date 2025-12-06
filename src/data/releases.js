@@ -155,14 +155,9 @@ Open place forever contained in amber dusk
     comments: `There is no focus on sleek clear-cut grooves any longer and death metal sound is winning over from here on out.`,
   },
   {
-    title: 'Ultra Vesaniam',
+    title: 'Prodome',
     year: 2025,
     songs: [
-      {
-        title: 'Intro',
-        lyrics: null,
-        tabs: [],
-      },
       {
         title: 'Prodome',
         lyrics: `Just a cue to a break from jade gray
@@ -845,6 +840,8 @@ This plexus decongested gains air to breathe `,
         tabs: [],
       },
     ],
-    comments: `Vocals and half the lyrics by Forest "Tephomab" Raible.`,
+    comments: `Vocals and half the lyrics by Forest "Tephomab" Raible.
+    
+    The only release moved over from Vres catalog (2015-2022). Older project names from 2009 to 2015 included Sir Crescendo and Cres VF.`,
   },
 ];
