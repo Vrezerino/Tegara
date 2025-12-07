@@ -152,7 +152,9 @@ Open place forever contained in amber dusk
         tabs: [],
       },
     ],
-    comments: `There is no focus on sleek clear-cut grooves any longer and death metal sound is winning over from here on out.`,
+    comments: `There is no focus on sleek clear-cut grooves any longer and death metal sound is winning over from here on out.
+    
+    Persona was included in <a href='https://metaltrenches.com/contact' target='_blank' rel='noreferrer'>Metal Trenches'</a> <a href='https://www.youtube.com/watch?v=VAb6Gkbm1ys' target='_blank' rel='noreferrer'>Best New Underground Metal Albums</a> review of October 2025.`,
   },
   {
     title: 'Prodome',
