@@ -54,7 +54,7 @@ export default function Release({ title, year, songs, comments }) {
         />
       ))}
 
-      <p className='commentText'>{comments}</p>
+      <p className='commentText' dangerouslySetInnerHTML={{ __html: comments }} />
 
       <p className='medleyText'>
         {audioAvailable ? (
